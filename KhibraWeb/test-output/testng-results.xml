@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37686" started-at="2021-02-21T08:39:29 WAT" finished-at="2021-02-21T08:40:07 WAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37686" started-at="2021-02-21T08:39:29 WAT" finished-at="2021-02-21T08:40:07 WAT">
+      <class name="company.SearchEvent">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:company.SearchEvent@8909f18]" name="setUp1" is-config="true" duration-ms="18341" started-at="2021-02-21T08:39:29 WAT" finished-at="2021-02-21T08:39:47 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method status="PASS" signature="testStudentSearchEvent()[pri:0, instance:company.SearchEvent@8909f18]" name="testStudentSearchEvent" duration-ms="18525" started-at="2021-02-21T08:39:47 WAT" finished-at="2021-02-21T08:40:06 WAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentSearchEvent -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:company.SearchEvent@8909f18]" name="screenShot" is-config="true" duration-ms="746" started-at="2021-02-21T08:40:06 WAT" finished-at="2021-02-21T08:40:07 WAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testStudentSearchEvent status=SUCCESS method=SearchEvent.testStudentSearchEvent()[pri:0, instance:company.SearchEvent@8909f18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+      </class> <!-- company.SearchEvent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

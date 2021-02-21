@@ -1,0 +1,33 @@
+INFO  - 2021-02-21 07:32:43.784; utils.log; START=SearchOpenJobs--------------------------------------------------------------
+INFO  - 2021-02-21 07:32:55.602; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-21 07:32:59.968; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-21 07:33:01.990; utils.log; University Login Successful
+INFO  - 2021-02-21 07:33:06.488; utils.log; Jobs Menu  Clicked
+INFO  - 2021-02-21 07:33:08.556; utils.log; Open Menu  Clicked
+INFO  - 2021-02-21 07:33:10.651; utils.log; Job Title entered into Search Box
+INFO  - 2021-02-21 07:33:12.704; utils.log; Search Button  Clicked
+INFO  - 2021-02-21 07:33:14.721; utils.log; Job was displayed in Open Section  
+INFO  - 2021-02-21 07:33:14.721; utils.log; End TEST-------------------------- SearchOpenJobs------------------------
+INFO  - 2021-02-21 07:33:14.722; utils.log; END=PASSED
+INFO  - 2021-02-21 07:49:09.294; utils.log; START=StudentSearchEvent--------------------------------------------------------------
+INFO  - 2021-02-21 07:49:18.021; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-21 07:49:22.415; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-02-21 07:49:24.440; utils.log; Login Successful
+INFO  - 2021-02-21 07:49:26.593; utils.log; Menu Dropdown Available
+INFO  - 2021-02-21 07:49:26.641; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-21 07:49:28.880; utils.log; Title entered into the event search box 
+INFO  - 2021-02-21 07:49:40.929; utils.log; Event selected from Dropdown 
+INFO  - 2021-02-21 07:49:42.975; utils.log; Event was was successful and details of event displayed 
+INFO  - 2021-02-21 07:49:42.975; utils.log; End TEST-------------------------- StudentSearchEvent------------------------
+INFO  - 2021-02-21 07:49:42.975; utils.log; END=PASSED
+INFO  - 2021-02-21 08:39:29.743; utils.log; START=EmployerSearchEvent--------------------------------------------------------------
+INFO  - 2021-02-21 08:39:41.517; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-21 08:39:45.934; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-21 08:39:47.960; utils.log; University Login Successful
+INFO  - 2021-02-21 08:39:50.201; utils.log; Menu Dropdown Available
+INFO  - 2021-02-21 08:39:50.266; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-21 08:39:52.393; utils.log; Title entered into the event search box 
+INFO  - 2021-02-21 08:40:04.443; utils.log; Event selected from Dropdown 
+INFO  - 2021-02-21 08:40:06.487; utils.log; Event was was successful and details of event displayed 
+INFO  - 2021-02-21 08:40:06.487; utils.log; End TEST-------------------------- EmployerSearchEvent------------------------
+INFO  - 2021-02-21 08:40:06.487; utils.log; END=PASSED
