@@ -124,12 +124,12 @@ public class AddEmployerLocation extends EmployerUtility{
 				  
 				  
    driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
-		  log.info("Employer Profile MenuClicked");
+		  log.info("Employer Profile Menu Clicked");
 		  Thread.sleep(2000);
 		  
 		   driver.findElement(By.xpath(objectrepo.getProperty("LocationsMenu"))).click();	 
 		   Thread.sleep(2000);
-			  log.info("Location Menu clicked");
+			  log.info("Location Menu Selected");
 		  
 		   driver.findElement(By.xpath(objectrepo.getProperty("AddEmpLocationButton"))).click();	 
 		   Thread.sleep(2000);
