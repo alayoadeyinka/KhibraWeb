@@ -31,3 +31,51 @@ INFO  - 2021-02-21 08:40:04.443; utils.log; Event selected from Dropdown
 INFO  - 2021-02-21 08:40:06.487; utils.log; Event was was successful and details of event displayed 
 INFO  - 2021-02-21 08:40:06.487; utils.log; End TEST-------------------------- EmployerSearchEvent------------------------
 INFO  - 2021-02-21 08:40:06.487; utils.log; END=PASSED
+INFO  - 2021-02-22 07:22:45.321; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 07:23:00.047; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 07:23:04.439; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 07:23:06.456; utils.log; University Login Successful
+INFO  - 2021-02-22 07:23:08.520; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 07:23:08.573; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 07:23:11.118; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 07:23:11.169; utils.log; There is an Ongoing Events 
+INFO  - 2021-02-22 07:23:11.169; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 07:23:11.169; utils.log; END=PASSED
+INFO  - 2021-02-22 07:25:11.601; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 07:25:23.125; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 07:25:27.533; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 07:25:29.553; utils.log; University Login Successful
+INFO  - 2021-02-22 07:25:31.624; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 07:25:31.675; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 07:25:34.771; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 07:26:14.818; utils.log; Precautions is not available  
+INFO  - 2021-02-22 07:26:14.818; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 07:26:14.819; utils.log; END=PASSED
+INFO  - 2021-02-22 07:29:46.763; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 07:29:58.349; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 07:30:02.769; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 07:30:04.786; utils.log; University Login Successful
+INFO  - 2021-02-22 07:30:06.851; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 07:30:06.903; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 07:30:08.996; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 07:30:51.079; utils.log; There is an ongoing Event in the event TAB 
+INFO  - 2021-02-22 07:30:51.079; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 07:30:51.080; utils.log; END=PASSED
+INFO  - 2021-02-22 07:31:19.689; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 07:31:31.120; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 07:31:35.461; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 07:31:37.482; utils.log; University Login Successful
+INFO  - 2021-02-22 07:31:39.539; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 07:31:39.605; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 07:31:41.985; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 07:33:04.082; utils.log; END=FAILED
+INFO  - 2021-02-22 07:33:54.707; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 07:34:08.748; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 07:34:13.176; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 07:34:15.194; utils.log; University Login Successful
+INFO  - 2021-02-22 07:34:17.256; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 07:34:17.316; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 07:34:19.388; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 07:35:02.529; utils.log; There is an ongoing Event in the event TAB 
+INFO  - 2021-02-22 07:35:02.530; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 07:35:02.530; utils.log; END=PASSED
