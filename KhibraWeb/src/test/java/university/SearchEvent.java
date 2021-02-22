@@ -115,7 +115,7 @@ try{
 	     
 driver.findElement(By.xpath(objectrepo.getProperty("SearchEventTextbox"))).sendKeys(Title);
 log.info("Title entered into the event search box ");
-Thread.sleep(12000);
+Thread.sleep(2000);
  
 keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.ENTER)).perform();
 log.info("Event selected from Dropdown ");
