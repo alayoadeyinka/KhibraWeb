@@ -94,6 +94,7 @@ public class SearchEvent extends LoginUtility{
 	public void testStudentSearchEvent() throws Exception {
 	     
 try{
+	/*
 	  String filePath = System.getProperty("user.dir");
  	  FileInputStream fis = new FileInputStream(filePath+"/config/Testdata.xlsx");
 
@@ -127,7 +128,39 @@ driver.findElement(By.xpath(objectrepo.getProperty("BackButton")));
 driver.findElement(By.xpath(objectrepo.getProperty("VirtualText")));
 driver.findElement(By.xpath(objectrepo.getProperty("VVEventTitle"))); 
 log.info("Event was was successful and details of event displayed ");
+*/
+	
+	
+	
+	driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click(); 
+	  log.info("Menu Dropdown Available");
+driver.findElement(By.xpath(objectrepo.getProperty("EventsHubMenuDropdown"))).click();	 
+	  log.info("EventsHubMenu Button Clicked ");
+Thread.sleep(2000);
 
+	
+if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmpty()){
+		  
+	 TakesScreenshot screenshot=(TakesScreenshot)driver;
+	  // Call method to capture screenshot
+	  File src=screenshot.getScreenshotAs(OutputType.FILE);
+	  // Copy files to specific location 
+	  // result.getName() will return name of test case so that screenshot name will be same as test case name
+	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
+
+	
+	Assert.fail("Search Event was available for University and should be removed"); 	 
+
+		 
+		  
+		 
+	}else{
+		 log.info("There is no Search Event Function for Uni "); 
+		 
+	}
+	
+	
+	
 			    log.info("End TEST-------------------------- StudentSearchEvent------------------------");     
 	    
 			    log.info("END=PASSED");

@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69127" started-at="2021-02-22T07:33:54 WAT" finished-at="2021-02-22T07:35:03 WAT">
+  <suite name="Default suite" duration-ms="64637" started-at="2021-02-23T11:18:56 WAT" finished-at="2021-02-23T11:20:01 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69127" started-at="2021-02-22T07:33:54 WAT" finished-at="2021-02-22T07:35:03 WAT">
-      <class name="university.OngoingEventsDetails">
-        <test-method status="PASS" signature="setUp1()[pri:0, instance:university.OngoingEventsDetails@1460a8c0]" name="setUp1" is-config="true" duration-ms="20595" started-at="2021-02-22T07:33:54 WAT" finished-at="2021-02-22T07:34:15 WAT">
+    <test name="Default test" duration-ms="64637" started-at="2021-02-23T11:18:56 WAT" finished-at="2021-02-23T11:20:01 WAT">
+      <class name="students.SearchEvent">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:students.SearchEvent@19d37183]" name="setUp1" is-config="true" duration-ms="21784" started-at="2021-02-23T11:18:56 WAT" finished-at="2021-02-23T11:19:18 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method status="PASS" signature="testSearchEvent()[pri:0, instance:university.OngoingEventsDetails@1460a8c0]" name="testSearchEvent" duration-ms="47335" started-at="2021-02-22T07:34:15 WAT" finished-at="2021-02-22T07:35:02 WAT">
+        <test-method status="PASS" signature="testStudentSearchEvent()[pri:0, instance:students.SearchEvent@19d37183]" name="testStudentSearchEvent" duration-ms="42184" started-at="2021-02-23T11:19:18 WAT" finished-at="2021-02-23T11:20:00 WAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchEvent -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.OngoingEventsDetails@1460a8c0]" name="screenShot" is-config="true" duration-ms="1129" started-at="2021-02-22T07:35:02 WAT" finished-at="2021-02-22T07:35:03 WAT">
+        </test-method> <!-- testStudentSearchEvent -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:students.SearchEvent@19d37183]" name="screenShot" is-config="true" duration-ms="631" started-at="2021-02-23T11:20:00 WAT" finished-at="2021-02-23T11:20:01 WAT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchEvent status=SUCCESS method=OngoingEventsDetails.testSearchEvent()[pri:0, instance:university.OngoingEventsDetails@1460a8c0] output={null}]]]>
+                <![CDATA[[TestResult name=testStudentSearchEvent status=SUCCESS method=SearchEvent.testStudentSearchEvent()[pri:0, instance:students.SearchEvent@19d37183] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- university.OngoingEventsDetails -->
+      </class> <!-- students.SearchEvent -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

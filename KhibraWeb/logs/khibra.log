@@ -79,3 +79,47 @@ INFO  - 2021-02-22 07:34:19.388; utils.log; Ongoing Events TAB  Clicked
 INFO  - 2021-02-22 07:35:02.529; utils.log; There is an ongoing Event in the event TAB 
 INFO  - 2021-02-22 07:35:02.530; utils.log; End TEST-------------------------- SearchEvent------------------------
 INFO  - 2021-02-22 07:35:02.530; utils.log; END=PASSED
+INFO  - 2021-02-22 17:17:06.349; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 17:17:21.740; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 17:17:26.207; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 17:17:28.228; utils.log; University Login Successful
+INFO  - 2021-02-22 17:17:30.297; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 17:17:30.348; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 17:17:32.542; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 17:17:32.557; utils.log; There is No Ongoing Events 
+INFO  - 2021-02-22 17:17:32.558; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 17:17:32.558; utils.log; END=PASSED
+INFO  - 2021-02-22 17:18:18.487; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-22 17:18:31.611; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-22 17:18:35.975; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-22 17:18:37.993; utils.log; University Login Successful
+INFO  - 2021-02-22 17:18:40.063; utils.log; Menu Dropdown Available
+INFO  - 2021-02-22 17:18:40.110; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-22 17:18:42.489; utils.log; Ongoing Events TAB  Clicked 
+INFO  - 2021-02-22 17:18:42.517; utils.log; There is No Ongoing Events 
+INFO  - 2021-02-22 17:18:42.518; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-22 17:18:42.518; utils.log; END=PASSED
+INFO  - 2021-02-23 11:14:50.390; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-23 11:15:06.103; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-23 11:15:10.491; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-23 11:15:12.513; utils.log; University Login Successful
+INFO  - 2021-02-23 11:15:12.575; utils.log; Menu Dropdown Available
+INFO  - 2021-02-23 11:15:12.628; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-23 11:16:32.022; utils.log; START=SearchEvent--------------------------------------------------------------
+INFO  - 2021-02-23 11:16:46.078; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-23 11:16:50.471; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-02-23 11:16:52.493; utils.log; University Login Successful
+INFO  - 2021-02-23 11:16:52.555; utils.log; Menu Dropdown Available
+INFO  - 2021-02-23 11:16:52.605; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-23 11:17:34.632; utils.log; There is no Search Event Function for Uni 
+INFO  - 2021-02-23 11:17:34.632; utils.log; End TEST-------------------------- SearchEvent------------------------
+INFO  - 2021-02-23 11:17:34.633; utils.log; END=PASSED
+INFO  - 2021-02-23 11:18:57.000; utils.log; START=StudentSearchEvent--------------------------------------------------------------
+INFO  - 2021-02-23 11:19:12.193; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-02-23 11:19:16.558; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-02-23 11:19:18.710; utils.log; Login Successful
+INFO  - 2021-02-23 11:19:18.777; utils.log; Menu Dropdown Available
+INFO  - 2021-02-23 11:19:18.826; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-02-23 11:20:00.894; utils.log; There is no Search Event Function for Uni 
+INFO  - 2021-02-23 11:20:00.895; utils.log; End TEST-------------------------- StudentSearchEvent------------------------
+INFO  - 2021-02-23 11:20:00.896; utils.log; END=PASSED
