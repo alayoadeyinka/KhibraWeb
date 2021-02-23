@@ -149,7 +149,7 @@ Thread.sleep(2000);
 	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
 
 	
-	Assert.fail("Search Events was available for University and should be removed"); 	 
+	Assert.fail("Search Event was available for University and should be removed"); 	 
 
 		 
 		  
