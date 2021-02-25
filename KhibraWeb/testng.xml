@@ -59,15 +59,18 @@
       <class name="university.UniStudentsHomepage"/>
       <class name="university.EditEvent"/>
       <class name="university.UniversityProfileMenuDropdown"/>
+      <class name="university.OngoingEventsDetails"/>
       <class name="company.AddEmployerLocation"/>
       <class name="company.EmployerDashboard"/>
       <class name="students.StudentsApplyJobNoCV"/>
       <class name="company.EmployerDashboardMenuDropDown"/>
       <class name="company.ProposePosition"/>
       <class name="university.UniSearchStudentByName"/>
+      <class name="students.SearchEvent"/>
       <class name="company.EmpUpdateAboutUsProfile"/>
       <class name="university.ChangeUniversityLogo"/>
       <class name="students.StudentsJobSearchByTitle"/>
+      <class name="company.SearchEvent"/>
       <class name="company.EmpSearchTalentByEverything"/>
       <class name="company.EditEmployerLocation"/>
     </classes>

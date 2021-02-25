@@ -1,6 +1,15 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -149,7 +158,7 @@ if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmp
 	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
 
 	
-	Assert.fail("Search Events was available for University and should be removed"); 	 
+	AssertJUnit.fail("Search Events was available for University and should be removed"); 	 
 
 		 
 		  
@@ -170,7 +179,7 @@ if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmp
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  AssertJUnit.fail(e.getMessage());
+							  Assert.fail(e.getMessage());
 							  
 						}
 				  

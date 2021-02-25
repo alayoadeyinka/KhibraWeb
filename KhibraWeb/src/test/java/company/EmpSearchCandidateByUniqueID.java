@@ -1,6 +1,12 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -105,7 +111,11 @@ public class EmpSearchCandidateByUniqueID extends EmployerUtility{
 				  Cell cell2 = wrongID.getCell(1);
 				  String WrongID  = cell2.getStringCellValue();
 				  
-	      
+
+	    		  driver.findElement(By.xpath(objectrepo.getProperty("EmpTalentMenu"))).click();	 
+			  	  log.info("Talent Menu  Clicked");
+			  	  Thread.sleep(2000);
+			  	  
 		  	  
 			  driver.findElement(By.xpath(objectrepo.getProperty("CandidatesTab"))).click();	 
 		  	  log.info("Candidates Tab  Clicked");
@@ -150,7 +160,7 @@ public class EmpSearchCandidateByUniqueID extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  AssertJUnit.fail(e.getMessage());
+				  Assert.fail(e.getMessage());
 				  
 			}
 	  

@@ -1,6 +1,15 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -26,7 +35,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.fail;
 import static org.testng.Assert.assertEquals;
 
 import org.apache.commons.io.FileUtils;
@@ -149,7 +157,7 @@ Thread.sleep(2000);
 	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
 
 	
-	Assert.fail("Search Event was available for University and should be removed"); 	 
+	AssertJUnit.fail("Search Event was available for University and should be removed"); 	 
 
 		 
 		  
@@ -171,7 +179,7 @@ Thread.sleep(2000);
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  AssertJUnit.fail(e.getMessage());
+							  Assert.fail(e.getMessage());
 							  
 						}
 				  

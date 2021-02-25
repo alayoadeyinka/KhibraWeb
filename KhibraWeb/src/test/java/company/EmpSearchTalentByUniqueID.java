@@ -1,6 +1,12 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -154,7 +160,7 @@ public class EmpSearchTalentByUniqueID extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  AssertJUnit.fail(e.getMessage());
+				  Assert.fail(e.getMessage());
 				  
 			}
 	  
