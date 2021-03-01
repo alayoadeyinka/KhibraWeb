@@ -140,3 +140,219 @@ INFO  - 2021-02-24 15:46:25.966; utils.log; START=EmpSearchShortlistedByName----
 INFO  - 2021-02-24 15:47:49.707; utils.log; Test Execution Started On  Alpha
 INFO  - 2021-02-24 15:47:49.720; utils.log; START=EmpSearchTalentByEverything--------------------------------------------------------------
 INFO  - 2021-02-25 12:53:42.348; utils.log; START=EmpSearchShortlistedByEverything--------------------------------------------------------------
+INFO  - 2021-03-01 08:20:06.747; utils.log; START=EventHomepageElements--------------------------------------------------------------
+INFO  - 2021-03-01 08:20:17.806; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:20:22.285; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:20:24.307; utils.log; University Login Successful
+INFO  - 2021-03-01 08:20:26.375; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:20:26.431; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:20:28.688; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:20:30.741; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:20:32.785; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:21:16.973; utils.log; END=FAILED
+INFO  - 2021-03-01 08:22:33.263; utils.log; START=ViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 08:22:45.199; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:22:49.582; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:22:51.599; utils.log; University Login Successful
+INFO  - 2021-03-01 08:22:53.662; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:22:53.714; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:22:55.769; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:22:57.822; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:22:59.861; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:23:44.058; utils.log; END=FAILED
+INFO  - 2021-03-01 08:26:02.647; utils.log; START=ViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 08:26:14.219; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:26:18.657; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:26:20.677; utils.log; University Login Successful
+INFO  - 2021-03-01 08:26:22.746; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:26:22.803; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:26:25.049; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:26:27.098; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:26:29.136; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:26:33.309; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 08:26:35.459; utils.log; RSVP TAB clicked  
+INFO  - 2021-03-01 08:27:15.527; utils.log; END=FAILED
+INFO  - 2021-03-01 08:33:06.276; utils.log; START=EventHomepageElements--------------------------------------------------------------
+INFO  - 2021-03-01 08:33:17.550; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:33:21.983; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:33:24.042; utils.log; University Login Successful
+INFO  - 2021-03-01 08:33:26.114; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:33:26.164; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:33:28.214; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:33:30.269; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:33:32.310; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:34:16.513; utils.log; END=FAILED
+INFO  - 2021-03-01 08:35:16.587; utils.log; START=ViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 08:36:13.517; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:36:17.947; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:36:19.966; utils.log; University Login Successful
+INFO  - 2021-03-01 08:36:22.034; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:36:22.084; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:36:24.331; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:36:26.388; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:36:28.431; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:36:33.718; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 08:36:35.856; utils.log; RSVP TAB clicked  
+INFO  - 2021-03-01 08:37:15.953; utils.log; END=FAILED
+INFO  - 2021-03-01 08:39:04.500; utils.log; START=ViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 08:39:15.774; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 08:39:20.199; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 08:39:22.215; utils.log; University Login Successful
+INFO  - 2021-03-01 08:39:24.287; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 08:39:24.351; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 08:39:26.400; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 08:39:28.454; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 08:39:30.491; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 08:39:34.679; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 08:39:36.830; utils.log; RSVP TAB clicked  
+INFO  - 2021-03-01 08:39:36.921; utils.log; RSVP Page elemenets validated  
+INFO  - 2021-03-01 08:39:39.005; utils.log; Sessions TAB Clicked 
+INFO  - 2021-03-01 08:39:41.191; utils.log; Event Sessions Page Validated  
+INFO  - 2021-03-01 08:39:41.238; utils.log; Analytics TAB clicked  
+INFO  - 2021-03-01 08:39:41.238; utils.log; End TEST-------------------------- ViewEventDetails------------------------
+INFO  - 2021-03-01 08:39:41.238; utils.log; END=PASSED
+INFO  - 2021-03-01 09:42:50.382; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 09:43:20.413; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 09:43:24.821; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 09:43:26.837; utils.log; Login Successful
+INFO  - 2021-03-01 09:43:28.899; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 09:43:28.953; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 09:44:10.962; utils.log; END=FAILED
+INFO  - 2021-03-01 09:44:36.934; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 09:45:02.332; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 09:45:06.685; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 09:45:08.704; utils.log; Login Successful
+INFO  - 2021-03-01 09:45:10.768; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 09:45:10.820; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 09:45:20.392; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 09:45:22.429; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 09:46:33.109; utils.log; END=FAILED
+INFO  - 2021-03-01 09:47:54.387; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 09:48:17.304; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 09:48:21.722; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 09:48:23.893; utils.log; Login Successful
+INFO  - 2021-03-01 09:48:25.958; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 09:48:26.009; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 09:49:08.032; utils.log; END=FAILED
+INFO  - 2021-03-01 09:54:38.719; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 09:55:18.250; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 09:55:22.676; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 09:55:25.714; utils.log; Login Successful
+INFO  - 2021-03-01 09:55:27.795; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 09:55:27.847; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 09:55:38.221; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 09:55:40.262; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 09:55:46.309; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 09:56:26.336; utils.log; No RSVP Section 
+INFO  - 2021-03-01 09:57:06.355; utils.log; END=FAILED
+INFO  - 2021-03-01 09:57:57.498; utils.log; START=UniversityViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 09:58:15.850; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 09:58:20.294; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 09:58:22.312; utils.log; University Login Successful
+INFO  - 2021-03-01 09:58:24.387; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 09:58:24.440; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 09:58:31.754; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 09:59:13.779; utils.log; END=FAILED
+INFO  - 2021-03-01 10:00:27.977; utils.log; START=UniversityViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:00:47.195; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:00:51.558; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 10:00:53.577; utils.log; University Login Successful
+INFO  - 2021-03-01 10:00:55.650; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:00:55.698; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:01:08.991; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 10:01:51.059; utils.log; END=FAILED
+INFO  - 2021-03-01 10:02:24.144; utils.log; START=UniversityViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:03:04.930; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:03:09.298; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 10:03:11.314; utils.log; University Login Successful
+INFO  - 2021-03-01 10:03:15.376; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:03:15.428; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:03:18.973; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 10:03:36.905; utils.log; END=FAILED
+INFO  - 2021-03-01 10:04:14.761; utils.log; START=UniversityViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:04:30.872; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:04:35.264; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 10:04:37.281; utils.log; University Login Successful
+INFO  - 2021-03-01 10:04:39.344; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:04:39.393; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:04:43.765; utils.log; Scheduled Event Tab Selected 
+INFO  - 2021-03-01 10:05:03.457; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 10:05:05.525; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 10:05:10.460; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 10:05:12.613; utils.log; RSVP TAB clicked  
+INFO  - 2021-03-01 10:05:12.707; utils.log; RSVP Page elemenets validated  
+INFO  - 2021-03-01 10:05:14.801; utils.log; Sessions TAB Clicked 
+INFO  - 2021-03-01 10:05:16.992; utils.log; Event Sessions Page Validated  
+INFO  - 2021-03-01 10:05:17.040; utils.log; Analytics TAB clicked  
+INFO  - 2021-03-01 10:05:17.040; utils.log; End TEST-------------------------- ViewEventDetails------------------------
+INFO  - 2021-03-01 10:05:17.040; utils.log; END=PASSED
+INFO  - 2021-03-01 10:06:09.399; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:06:27.540; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:06:31.857; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 10:06:33.907; utils.log; Login Successful
+INFO  - 2021-03-01 10:06:35.976; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:06:36.026; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:07:02.771; utils.log; END=FAILED
+INFO  - 2021-03-01 10:07:44.624; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:08:06.137; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:08:10.531; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 10:08:12.547; utils.log; Login Successful
+INFO  - 2021-03-01 10:08:14.612; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:08:14.741; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:08:16.817; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 10:08:18.860; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 10:08:22.994; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 10:09:03.008; utils.log; No RSVP Section 
+INFO  - 2021-03-01 10:09:17.793; utils.log; END=FAILED
+INFO  - 2021-03-01 10:10:18.234; utils.log; START=StudentsViewEventDetails--------------------------------------------------------------
+INFO  - 2021-03-01 10:10:29.344; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 10:10:33.719; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-01 10:10:35.737; utils.log; Login Successful
+INFO  - 2021-03-01 10:10:37.807; utils.log; Menu Dropdown Available
+INFO  - 2021-03-01 10:10:37.857; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-01 10:10:39.913; utils.log; Upcoming EventTab Selected 
+INFO  - 2021-03-01 10:10:41.951; utils.log; Event Dates, Title and Time Validated 
+INFO  - 2021-03-01 10:10:46.071; utils.log; Event Overivew Page Validated  
+INFO  - 2021-03-01 10:11:26.098; utils.log; No RSVP Section 
+INFO  - 2021-03-01 10:11:26.098; utils.log; End TEST-------------------------- StudentsViewEventDetails------------------------
+INFO  - 2021-03-01 10:11:26.099; utils.log; END=PASSED
+INFO  - 2021-03-01 11:32:39.838; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-03-01 11:33:08.630; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 11:33:13.075; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 11:33:15.351; utils.log; University Login Successful
+INFO  - 2021-03-01 11:34:50.857; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-03-01 11:34:52.868; utils.log; END=FAILED
+INFO  - 2021-03-01 11:35:13.256; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-03-01 11:36:12.311; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 11:36:16.673; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 11:36:19.532; utils.log; Employer Login Successful
+INFO  - 2021-03-01 11:39:02.646; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-03-01 11:39:06.901; utils.log; Location Menu Selected
+INFO  - 2021-03-01 11:39:08.983; utils.log; Delete Icon Clicked 
+INFO  - 2021-03-01 11:39:08.984; utils.log; Location Was Deleted Succesfully 
+INFO  - 2021-03-01 11:39:08.984; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
+INFO  - 2021-03-01 11:39:08.985; utils.log; END=PASSED
+INFO  - 2021-03-01 11:39:27.937; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-03-01 11:39:44.682; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-03-01 11:41:27.710; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 11:41:32.350; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 11:41:39.086; utils.log; Employer Login Successful
+INFO  - 2021-03-01 11:42:01.171; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-03-01 11:42:05.259; utils.log; Location Menu Selected
+INFO  - 2021-03-01 11:42:07.326; utils.log; Delete Icon Clicked 
+INFO  - 2021-03-01 11:42:19.331; utils.log; Location Was Deleted Succesfully 
+INFO  - 2021-03-01 11:42:19.331; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
+INFO  - 2021-03-01 11:42:19.331; utils.log; END=PASSED
+INFO  - 2021-03-01 11:43:58.172; utils.log; START=DeleteEmployerLocation--------------------------------------------------------------
+INFO  - 2021-03-01 11:44:17.064; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-01 11:44:21.406; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-01 11:44:23.423; utils.log; Employer Login Successful
+INFO  - 2021-03-01 11:44:54.634; utils.log; Employer Profile Menu Clicked
+INFO  - 2021-03-01 11:44:58.753; utils.log; Location Menu Selected
+INFO  - 2021-03-01 11:45:00.816; utils.log; Delete Icon Clicked 
+INFO  - 2021-03-01 11:45:02.875; utils.log; No Button   Clicked 
+INFO  - 2021-03-01 11:45:04.927; utils.log; Delete Icon Clicked 
+INFO  - 2021-03-01 11:45:06.988; utils.log; Yes Button   Clicked 
+INFO  - 2021-03-01 11:45:18.990; utils.log; Location Was Deleted Succesfully 
+INFO  - 2021-03-01 11:45:18.991; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
+INFO  - 2021-03-01 11:45:18.991; utils.log; END=PASSED
