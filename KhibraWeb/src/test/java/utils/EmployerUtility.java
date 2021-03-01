@@ -191,7 +191,7 @@ public class EmployerUtility {
 
 	   
 		  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown")));
-		    log.info("University Login Successful");
+		    log.info("Employer Login Successful");
 
 
 }

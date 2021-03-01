@@ -1,4 +1,4 @@
- package university;
+ package company;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;
@@ -52,7 +52,7 @@ import org.testng.annotations.Test;
 
 import com.gargoylesoftware.htmlunit.ElementNotFoundException;
 
-import utils.UniversityUtility;
+import utils.EmployerUtility;
 import utils.log;
 import utils.utility;
 
@@ -79,16 +79,17 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class ViewEventDetails extends UniversityUtility{
+public class DeleteEmployerLocation extends EmployerUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
-	  log.info("START=UniversityViewEventDetails--------------------------------------------------------------");
+	  log.info("START=DeleteEmployerLocation--------------------------------------------------------------");
 
-	  UniversityUtilityclass();
+	  EmployerUtilityclass();
     
     	
+	  
     		
 }
 	
@@ -96,125 +97,60 @@ public class ViewEventDetails extends UniversityUtility{
 	  @SuppressWarnings("rawtypes")
 	@Test
 	
-	public void testViewEventDetails() throws Exception {
-	     
-try{
- 
-			  
-			  Thread.sleep(2000);
-			  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click(); 
-			  log.info("Menu Dropdown Available");
-			   Thread.sleep(2000);
-	  driver.findElement(By.xpath(objectrepo.getProperty("EventsHubMenuDropdown"))).click();	 
-			  log.info("EventsHubMenu Button Clicked ");
-	     Thread.sleep(4000);
-	     
-	     driver.findElement(By.xpath(objectrepo.getProperty("ScheduledEventTab"))).click();	 
-		  log.info("Scheduled Event Tab Selected ");
-    Thread.sleep(2000);
-	     
-    driver.findElement(By.xpath(objectrepo.getProperty("UpcomingEventTab"))).click();	 
-	  log.info("Upcoming EventTab Selected ");
-Thread.sleep(2000);
-driver.findElement(By.xpath(objectrepo.getProperty("VirtualText"))); 
-driver.findElement(By.xpath(objectrepo.getProperty("ViewEventTitle"))); 
-driver.findElement(By.xpath(objectrepo.getProperty("ViewEventTime")));
-
-log.info("Event Dates, Title and Time Validated ");
-
-driver.findElement(By.xpath(objectrepo.getProperty("ViewEventTitle"))).click();
-Thread.sleep(2000);
-
-driver.findElement(By.xpath(objectrepo.getProperty("BackButton"))); 
-driver.findElement(By.xpath(objectrepo.getProperty("VirtualText")));
-driver.findElement(By.xpath(objectrepo.getProperty("VVEventTitle"))); 
- 
-driver.findElement(By.xpath(objectrepo.getProperty("OrganizedBy"))); 
-driver.findElement(By.xpath(objectrepo.getProperty("OrganizedTime")));
-driver.findElement(By.xpath(objectrepo.getProperty("EventsOverview"))).click();
-Thread.sleep(2000);
-
-
-  
-driver.findElement(By.xpath(objectrepo.getProperty("InviteEventButton")));
-
-driver.findElement(By.xpath(objectrepo.getProperty("EditEventButton")));
-log.info("Event Overivew Page Validated  ");
-
-
-
-
-if(!driver.findElements(By.xpath("//a[contains(.,'RSVPs')]")).isEmpty()){
-	  
-	driver.findElement(By.xpath(objectrepo.getProperty("EventRSVPTab"))).click();
-	Thread.sleep(2000);
-	log.info("RSVP TAB clicked  ");
-
-	driver.findElement(By.xpath(objectrepo.getProperty("SearchEventRSVP")));
-	driver.findElement(By.xpath(objectrepo.getProperty("InterestedEmployers")));
-	driver.findElement(By.xpath(objectrepo.getProperty("EventStudentandAlumni")));
-	driver.findElement(By.xpath(objectrepo.getProperty("AllButton")));
-	driver.findElement(By.xpath(objectrepo.getProperty("PendingButton")));
-	driver.findElement(By.xpath(objectrepo.getProperty("GoingButton")));
-	driver.findElement(By.xpath(objectrepo.getProperty("RequestedButton")));
-	driver.findElement(By.xpath(objectrepo.getProperty("RejectedButton")));
-	log.info("RSVP Page elemenets validated  ");
-		 
+	public void testDeleteEmployerLocation() throws Exception {
+		  try{
 		  
-		 
-	}else{
-		 log.info("No RSVP Section "); 
-		 
-	}
-
-
-
-driver.findElement(By.xpath(objectrepo.getProperty("EventSessionsTab"))).click();
-Thread.sleep(2000);
-log.info("Sessions TAB Clicked ");
-
-driver.findElement(By.xpath(objectrepo.getProperty("MySessions")));
-driver.findElement(By.xpath(objectrepo.getProperty("EmployersSession")));
-
-
-driver.findElement(By.xpath(objectrepo.getProperty("MySessions"))).click();
-driver.findElement(By.xpath(objectrepo.getProperty("EventDay1")));
-driver.findElement(By.xpath(objectrepo.getProperty("MySessionHeader")));
-
-driver.findElement(By.xpath(objectrepo.getProperty("EventSessionsTab"))).click();
-Thread.sleep(2000);
-
-driver.findElement(By.xpath(objectrepo.getProperty("EmployersSession"))).click();
-
-
-driver.findElement(By.xpath(objectrepo.getProperty("EmployersSessionHeader")));
-
-log.info("Event Sessions Page Validated  ");
-
-driver.findElement(By.xpath(objectrepo.getProperty("EventAnalyticsTab"))).click();
-log.info("Analytics TAB clicked  ");
-
-
-
-
-
-			    log.info("End TEST-------------------------- ViewEventDetails------------------------");     
+		 	  
+				  
+   driver.findElement(By.xpath(objectrepo.getProperty("EmployerProfileMenu"))).click();	 
+		  log.info("Employer Profile Menu Clicked");
+		  Thread.sleep(2000);
+		  
+		   driver.findElement(By.xpath(objectrepo.getProperty("LocationsMenu"))).click();	 
+		   Thread.sleep(2000);
+			  log.info("Location Menu Selected");
+			  
+			  
+			  driver.findElement(By.xpath(objectrepo.getProperty("DeleteLocationIcon"))).click();	 
+			   Thread.sleep(2000);
+				  log.info("Delete Icon Clicked ");
+			  
+				  
+				  driver.findElement(By.xpath(objectrepo.getProperty("NoButton"))).click();	 
+				   Thread.sleep(2000);
+					  log.info("No Button   Clicked ");
+					  
+					  
+				  
+					  driver.findElement(By.xpath(objectrepo.getProperty("DeleteLocationIcon"))).click();	 
+					   Thread.sleep(2000);
+						  log.info("Delete Icon Clicked ");
+						  
+						  
+						  driver.findElement(By.xpath(objectrepo.getProperty("YesButton"))).click();	 
+						   Thread.sleep(2000);
+							  log.info("Yes Button   Clicked ");	  
+						  
+						  
+						  
+				   Thread.sleep(2000);
+		   
+  log.info("Location Was Deleted Succesfully ");
+		   
+			    log.info("End TEST-------------------------- DeleteEmployerLocation------------------------");     
 	    
 			    log.info("END=PASSED");
 			 	   
 
-					  } 
+		  } 
+	  
+			  catch (Exception e) {
+				  log.info("END=FAILED");
+				  Assert.fail(e.getMessage());
 				  
-						  catch (Exception e) {
-							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
-							  
-						}
-				  
-					  }
-      
-
- 
+			}
+	  
+		  }
       
 
  
