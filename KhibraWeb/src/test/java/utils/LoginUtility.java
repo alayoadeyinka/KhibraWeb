@@ -188,7 +188,23 @@ public class LoginUtility {
 	    log.info("Username , Password  and Sign In Button Entered  ");
 	   Thread.sleep(2000);
 	
-
+	   
+	   if(!driver.findElements(By.xpath("//button[contains(.,'Agree')]")).isEmpty()){
+			  
+ 	driver.findElement(By.xpath(objectrepo.getProperty("AgreeButton"))).click();
+	 Thread.sleep(2000);
+	 log.info("Agree Button for T & C clicked  ");
+ 
+			}else{
+				 log.info("T & C already selected , Move to homepage "); 
+				 
+			}
+	   Thread.sleep(2000);
+	   
+	   
+	   
+	   
+	   
 	   
 		  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown")));
 		    log.info("Login Successful");

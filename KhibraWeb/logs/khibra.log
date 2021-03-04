@@ -356,3 +356,31 @@ INFO  - 2021-03-01 11:45:06.988; utils.log; Yes Button   Clicked
 INFO  - 2021-03-01 11:45:18.990; utils.log; Location Was Deleted Succesfully 
 INFO  - 2021-03-01 11:45:18.991; utils.log; End TEST-------------------------- DeleteEmployerLocation------------------------
 INFO  - 2021-03-01 11:45:18.991; utils.log; END=PASSED
+INFO  - 2021-03-04 13:40:21.947; utils.log; START=EmpJobsMenuDropDown--------------------------------------------------------------
+INFO  - 2021-03-04 13:40:36.710; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 13:40:41.056; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-04 13:40:45.130; utils.log; Agree Button for T & C clicked  
+INFO  - 2021-03-04 13:40:45.147; utils.log; Employer Login Successful
+INFO  - 2021-03-04 13:40:47.210; utils.log; Dropdown  Clicked
+INFO  - 2021-03-04 13:40:57.752; utils.log; Jobs Menu  Clicked
+INFO  - 2021-03-04 13:41:39.790; utils.log; END=FAILED
+INFO  - 2021-03-04 14:02:40.204; utils.log; START=EmpJobsMenuDropDown--------------------------------------------------------------
+INFO  - 2021-03-04 14:02:53.436; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 14:02:57.783; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-04 14:03:39.842; utils.log; T & C already selected , Move to homepage 
+INFO  - 2021-03-04 14:03:39.857; utils.log; Employer Login Successful
+INFO  - 2021-03-04 14:03:41.947; utils.log; Dropdown  Clicked
+INFO  - 2021-03-04 14:03:45.284; utils.log; Jobs Menu  Clicked
+INFO  - 2021-03-04 14:03:47.301; utils.log; Jobs Page Opened 
+INFO  - 2021-03-04 14:03:47.302; utils.log; End TEST-------------------------- EmpJobsMenuDropDown------------------------
+INFO  - 2021-03-04 14:03:47.303; utils.log; END=PASSED
+INFO  - 2021-03-04 14:05:19.740; utils.log; START=UniversityProfileMenuDropdown--------------------------------------------------------------
+INFO  - 2021-03-04 14:05:34.440; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 14:05:38.805; utils.log; Username , Password Entered and Sign In Button Clicked  
+INFO  - 2021-03-04 14:05:42.879; utils.log; Agree Button for T & C clicked  
+INFO  - 2021-03-04 14:05:42.896; utils.log; University Login Successful
+INFO  - 2021-03-04 14:05:42.966; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-04 14:05:43.018; utils.log; UniDashboard Dropdown Selected
+INFO  - 2021-03-04 14:05:46.238; utils.log; Unversity Profile Page displayed 
+INFO  - 2021-03-04 14:05:46.238; utils.log; End TEST-------------------------- UniversityProfileMenuDropdown------------------------
+INFO  - 2021-03-04 14:05:46.239; utils.log; END=PASSED

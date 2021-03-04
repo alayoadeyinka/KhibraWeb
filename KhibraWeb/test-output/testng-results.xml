@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81596" started-at="2021-03-01T11:43:58 WAT" finished-at="2021-03-01T11:45:19 WAT">
+  <suite name="Default suite" duration-ms="27237" started-at="2021-03-04T14:05:19 WAT" finished-at="2021-03-04T14:05:46 WAT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81596" started-at="2021-03-01T11:43:58 WAT" finished-at="2021-03-01T11:45:19 WAT">
-      <class name="company.DeleteEmployerLocation">
-        <test-method status="PASS" signature="setUp1()[pri:0, instance:company.DeleteEmployerLocation@19d37183]" name="setUp1" is-config="true" duration-ms="25321" started-at="2021-03-01T11:43:58 WAT" finished-at="2021-03-01T11:44:23 WAT">
+    <test name="Default test" duration-ms="27237" started-at="2021-03-04T14:05:19 WAT" finished-at="2021-03-04T14:05:46 WAT">
+      <class name="university.UniversityProfileMenuDropdown">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:university.UniversityProfileMenuDropdown@19d37183]" name="setUp1" is-config="true" duration-ms="23227" started-at="2021-03-04T14:05:19 WAT" finished-at="2021-03-04T14:05:42 WAT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp1 -->
-        <test-method status="PASS" signature="testDeleteEmployerLocation()[pri:0, instance:company.DeleteEmployerLocation@19d37183]" name="testDeleteEmployerLocation" duration-ms="55567" started-at="2021-03-01T11:44:23 WAT" finished-at="2021-03-01T11:45:18 WAT">
+        <test-method status="PASS" signature="testUniversityProfileMenuDropdown()[pri:0, instance:university.UniversityProfileMenuDropdown@19d37183]" name="testUniversityProfileMenuDropdown" duration-ms="3341" started-at="2021-03-04T14:05:42 WAT" finished-at="2021-03-04T14:05:46 WAT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeleteEmployerLocation -->
-        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:company.DeleteEmployerLocation@19d37183]" name="screenShot" is-config="true" duration-ms="669" started-at="2021-03-01T11:45:18 WAT" finished-at="2021-03-01T11:45:19 WAT">
+        </test-method> <!-- testUniversityProfileMenuDropdown -->
+        <test-method status="PASS" signature="screenShot(org.testng.ITestResult)[pri:0, instance:university.UniversityProfileMenuDropdown@19d37183]" name="screenShot" is-config="true" duration-ms="632" started-at="2021-03-04T14:05:46 WAT" finished-at="2021-03-04T14:05:46 WAT">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDeleteEmployerLocation status=SUCCESS method=DeleteEmployerLocation.testDeleteEmployerLocation()[pri:0, instance:company.DeleteEmployerLocation@19d37183] output={null}]]]>
+                <![CDATA[[TestResult name=testUniversityProfileMenuDropdown status=SUCCESS method=UniversityProfileMenuDropdown.testUniversityProfileMenuDropdown()[pri:0, instance:university.UniversityProfileMenuDropdown@19d37183] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-      </class> <!-- company.DeleteEmployerLocation -->
+      </class> <!-- university.UniversityProfileMenuDropdown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
