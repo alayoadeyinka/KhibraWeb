@@ -384,3 +384,117 @@ INFO  - 2021-03-04 14:05:43.018; utils.log; UniDashboard Dropdown Selected
 INFO  - 2021-03-04 14:05:46.238; utils.log; Unversity Profile Page displayed 
 INFO  - 2021-03-04 14:05:46.238; utils.log; End TEST-------------------------- UniversityProfileMenuDropdown------------------------
 INFO  - 2021-03-04 14:05:46.239; utils.log; END=PASSED
+INFO  - 2021-03-04 16:09:46.289; utils.log; START=StudentsLogout--------------------------------------------------------------
+INFO  - 2021-03-04 16:10:00.920; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 16:10:05.264; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-04 16:10:09.339; utils.log; Agree Button for T & C clicked  
+INFO  - 2021-03-04 16:11:59.746; utils.log; START=StudentsLogout--------------------------------------------------------------
+INFO  - 2021-03-04 16:12:12.797; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 16:12:17.129; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-04 16:12:21.204; utils.log; Agree Button for T & C clicked  
+INFO  - 2021-03-04 16:15:09.429; utils.log; START=StudentsLogout--------------------------------------------------------------
+INFO  - 2021-03-04 16:15:23.658; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 16:15:27.979; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-04 16:16:31.410; utils.log; START=StudentsLogout--------------------------------------------------------------
+INFO  - 2021-03-04 16:16:45.398; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-04 16:16:49.716; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-04 16:16:53.795; utils.log; Agree Button for T & C clicked  
+INFO  - 2021-03-05 21:28:16.013; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:28:28.771; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:28:33.124; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:29:15.176; utils.log; T & C already selected , Move to homepage 
+INFO  - 2021-03-05 21:29:17.191; utils.log; Login Successful
+INFO  - 2021-03-05 21:29:17.366; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:29:17.415; utils.log; My profile Selected
+INFO  - 2021-03-05 21:29:20.094; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:29:22.203; utils.log; Image Selected 
+INFO  - 2021-03-05 21:29:24.287; utils.log; DONE BUTTON CLICKED 
+INFO  - 2021-03-05 21:30:04.309; utils.log; END=FAILED
+INFO  - 2021-03-05 21:31:10.338; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:31:21.548; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:31:25.909; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:32:07.924; utils.log; T & C already selected , Move to homepage 
+INFO  - 2021-03-05 21:32:09.944; utils.log; Login Successful
+INFO  - 2021-03-05 21:32:10.085; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:32:10.149; utils.log; My profile Selected
+INFO  - 2021-03-05 21:32:12.946; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:32:15.062; utils.log; Image Selected 
+INFO  - 2021-03-05 21:32:17.144; utils.log; DONE BUTTON CLICKED 
+INFO  - 2021-03-05 21:32:17.205; utils.log; Save BUTTON CLICKED 
+INFO  - 2021-03-05 21:32:21.113; utils.log; Upload Photo Success Message was Displayed 
+INFO  - 2021-03-05 21:32:21.113; utils.log; End TEST-------------------------- ChangeStudentProfilePicture------------------------
+INFO  - 2021-03-05 21:32:21.114; utils.log; END=PASSED
+INFO  - 2021-03-05 21:33:15.257; utils.log; START=DeleteStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:33:27.656; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:33:31.988; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:33:34.004; utils.log; Login Successful
+INFO  - 2021-03-05 21:33:34.059; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:33:34.109; utils.log; My profile Selected
+INFO  - 2021-03-05 21:33:37.804; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:33:39.876; utils.log; Delete BUTTON CLICKED 
+INFO  - 2021-03-05 21:34:01.022; utils.log; END=FAILED
+INFO  - 2021-03-05 21:34:07.264; utils.log; START=DeleteStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:34:17.518; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:34:21.843; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:34:23.864; utils.log; Login Successful
+INFO  - 2021-03-05 21:34:23.919; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:34:23.981; utils.log; END=FAILED
+INFO  - 2021-03-05 21:34:57.675; utils.log; START=DeleteStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:35:09.782; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:35:14.103; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:35:16.121; utils.log; Login Successful
+INFO  - 2021-03-05 21:35:16.180; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:35:16.292; utils.log; END=FAILED
+INFO  - 2021-03-05 21:35:44.268; utils.log; START=ChangeStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:35:58.690; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:36:03.022; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:36:05.042; utils.log; Login Successful
+INFO  - 2021-03-05 21:36:05.174; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:36:05.224; utils.log; My profile Selected
+INFO  - 2021-03-05 21:36:09.697; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:36:11.801; utils.log; Image Selected 
+INFO  - 2021-03-05 21:36:13.878; utils.log; DONE BUTTON CLICKED 
+INFO  - 2021-03-05 21:36:13.939; utils.log; Save BUTTON CLICKED 
+INFO  - 2021-03-05 21:36:15.954; utils.log; Upload Photo Success Message was Displayed 
+INFO  - 2021-03-05 21:36:15.955; utils.log; End TEST-------------------------- ChangeStudentProfilePicture------------------------
+INFO  - 2021-03-05 21:36:15.955; utils.log; END=PASSED
+INFO  - 2021-03-05 21:36:42.309; utils.log; START=DeleteStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:36:51.312; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:36:55.640; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:36:57.662; utils.log; Login Successful
+INFO  - 2021-03-05 21:36:57.745; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:37:16.779; utils.log; My profile Selected
+INFO  - 2021-03-05 21:37:19.289; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:37:21.363; utils.log; Delete BUTTON CLICKED 
+INFO  - 2021-03-05 21:37:23.417; utils.log; Save BUTTON CLICKED 
+INFO  - 2021-03-05 21:37:25.434; utils.log; Upload Delete Success Message was Displayed 
+INFO  - 2021-03-05 21:37:25.435; utils.log; End TEST-------------------------- DeleteStudentProfilePicture------------------------
+INFO  - 2021-03-05 21:37:25.435; utils.log; END=PASSED
+INFO  - 2021-03-05 21:37:44.834; utils.log; START=DeleteStudentProfilePicture--------------------------------------------------------------
+INFO  - 2021-03-05 21:37:56.362; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:38:00.679; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:38:02.696; utils.log; Login Successful
+INFO  - 2021-03-05 21:38:06.765; utils.log; Menu Dropdown Clicked
+INFO  - 2021-03-05 21:38:06.817; utils.log; My profile Selected
+INFO  - 2021-03-05 21:38:09.364; utils.log; Change Avatar Icon Clicked
+INFO  - 2021-03-05 21:38:11.435; utils.log; Delete BUTTON CLICKED 
+INFO  - 2021-03-05 21:38:13.490; utils.log; Save BUTTON CLICKED 
+INFO  - 2021-03-05 21:38:15.510; utils.log; Upload Delete Success Message was Displayed 
+INFO  - 2021-03-05 21:38:15.511; utils.log; End TEST-------------------------- DeleteStudentProfilePicture------------------------
+INFO  - 2021-03-05 21:38:15.511; utils.log; END=PASSED
+INFO  - 2021-03-05 21:38:32.822; utils.log; START=StudentSearchEvent--------------------------------------------------------------
+INFO  - 2021-03-05 21:38:50.489; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:38:54.807; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:38:56.824; utils.log; Login Successful
+INFO  - 2021-03-05 21:38:56.917; utils.log; Menu Dropdown Available
+INFO  - 2021-03-05 21:39:22.272; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-05 21:39:24.281; utils.log; END=FAILED
+INFO  - 2021-03-05 21:39:27.151; utils.log; START=StudentSearchEvent--------------------------------------------------------------
+INFO  - 2021-03-05 21:39:39.103; utils.log; Test Execution Started On  Alpha
+INFO  - 2021-03-05 21:39:43.426; utils.log; Username , Password  and Sign In Button Entered  
+INFO  - 2021-03-05 21:39:45.440; utils.log; Login Successful
+INFO  - 2021-03-05 21:39:47.514; utils.log; Menu Dropdown Available
+INFO  - 2021-03-05 21:39:49.570; utils.log; EventsHubMenu Button Clicked 
+INFO  - 2021-03-05 21:40:31.617; utils.log; There is no Search Event Function for Uni 
+INFO  - 2021-03-05 21:40:31.618; utils.log; End TEST-------------------------- StudentSearchEvent------------------------
+INFO  - 2021-03-05 21:40:31.618; utils.log; END=PASSED

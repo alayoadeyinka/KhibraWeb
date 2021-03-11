@@ -139,10 +139,13 @@ driver.findElement(By.xpath(objectrepo.getProperty("VVEventTitle")));
 log.info("Event was was successful and details of event displayed ");
 */
 	
-	
+	   
+	  Thread.sleep(2000);
 	
 	driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click(); 
 	  log.info("Menu Dropdown Available");
+	   
+	  Thread.sleep(2000);
 driver.findElement(By.xpath(objectrepo.getProperty("EventsHubMenuDropdown"))).click();	 
 	  log.info("EventsHubMenu Button Clicked ");
 Thread.sleep(2000);

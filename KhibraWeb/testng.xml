@@ -4,75 +4,15 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="company.EmpSearchCandidateByUniqueID"/>
-      <class name="university.UniversityDashboardMenuDropdown"/>
-      <class name="company.EmpUploadEmployerPhotos"/>
-      <class name="company.EmpSearchCandidateByName"/>
-      <class name="students.TermsandServicePage"/>
-      <class name="company.EmpUpdateSocialMediaProfile"/>
-      <class name="students.StudentSignUpwithCID"/>
-      <class name="university.UpdateUniSocialMediaProfile"/>
-      <class name="university.UniversityStudentsMenuDropdown"/>
-      <class name="students.DeleteStudentProfilePicture"/>
-      <class name="company.EmpSearchShortlistedByName"/>
-      <class name="university.UniSearchStudentByID"/>
-      <class name="company.EmpSearchShortlistedByEverything"/>
-      <class name="students.ChangeStudentProfilePicture"/>
-      <class name="students.StudentsCreateCV"/>
-      <class name="students.StudentsJobsHomepage"/>
-      <class name="company.SearchOpenJobs"/>
-      <class name="company.EmpSearchClosedJobs"/>
-      <class name="company.EditEmployerPhotos"/>
-      <class name="company.EmpProfileDropdownMenu"/>
-      <class name="UserAccess.InvalidLogin"/>
-      <class name="company.EmpSearchTalentByName"/>
-      <class name="university.UniSearchStudentByEverything"/>
-      <class name="university.SearchEvent"/>
-      <class name="company.AddNewJob"/>
-      <class name="students.StudentsApplicationsPage"/>
-      <class name="students.StudentsJobSearchByCity"/>
-      <class name="company.CloseJob"/>
-      <class name="university.UpdateUniAboutUsProfile"/>
-      <class name="students.StudentsLogout"/>
-      <class name="university.UniversiyProfilePAge"/>
-      <class name="company.JobsHomepage"/>
-      <class name="university.AddNewEvent"/>
-      <class name="company.EmpShortlistPosition"/>
-      <class name="university.UniversityAboutPage"/>
-      <class name="university.UniViewStudentProfie"/>
-      <class name="company.EmpJobsMenuDropDown"/>
-      <class name="company.ChangeEmployerLogo"/>
-      <class name="students.StudentsInvalidJobSearch"/>
-      <class name="students.StudentAboutPage"/>
-      <class name="students.StudentsSignUp"/>
-      <class name="students.StudentsApplyJob"/>
-      <class name="company.EditJob"/>
-      <class name="company.EmpTalentMenuDropDown"/>
-      <class name="students.StudentsMyProfile"/>
-      <class name="UserAccess.LoginPageElements"/>
-      <class name="students.StudentViewJobApplicationDetails"/>
-      <class name="company.EmpSearchTalentByUniqueID"/>
-      <class name="UserAccess.InvalidSignup"/>
-      <class name="university.ViewEventDetails"/>
-      <class name="company.EmpTalentHomePage"/>
-      <class name="students.StudentsEmptyJobDashboard"/>
-      <class name="university.UniversityDashboard"/>
-      <class name="university.UniStudentsHomepage"/>
-      <class name="university.EditEvent"/>
-      <class name="university.UniversityProfileMenuDropdown"/>
-      <class name="university.OngoingEventsDetails"/>
-      <class name="company.AddEmployerLocation"/>
-      <class name="company.EmployerDashboard"/>
-      <class name="students.StudentsApplyJobNoCV"/>
-      <class name="company.EmployerDashboardMenuDropDown"/>
-      <class name="company.ProposePosition"/>
-      <class name="university.UniSearchStudentByName"/>
-      <class name="students.SearchEvent"/>
-      <class name="company.EmpUpdateAboutUsProfile"/>
-      <class name="university.ChangeUniversityLogo"/>
-      <class name="students.StudentsJobSearchByTitle"/>
-      <class name="company.SearchEvent"/>
+           <class name="university.UniversityDashboard"/>
       <class name="company.EmpSearchTalentByEverything"/>
       <class name="company.EditEmployerLocation"/>
+      
+            <class name="company.EmpTalentMenuDropDown"/>
+      
+           <class name="company.AddNewJob"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
+ 

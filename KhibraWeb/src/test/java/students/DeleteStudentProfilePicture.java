@@ -97,9 +97,10 @@ public class DeleteStudentProfilePicture extends LoginUtility{
 	public void testDeleteStudentProfilePicture() throws Exception {
 		  try{
 			   
-				   
+			  Thread.sleep(2000);
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
+			  Thread.sleep(2000);
 			  log.info("Menu Dropdown Clicked");
 			  driver.findElement(By.xpath(objectrepo.getProperty("MyProfileMenu"))).click();	 
 			  log.info("My profile Selected");
@@ -112,7 +113,7 @@ log.info("Change Avatar Icon Clicked");
 driver.findElement(By.xpath(objectrepo.getProperty("DeletePhotoButton"))).click();	 
 log.info("Delete BUTTON CLICKED ");
 Thread.sleep(2000);
-driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	
+driver.findElement(By.xpath(objectrepo.getProperty("SavesButton"))).click();	
 log.info("Save BUTTON CLICKED ");
 Thread.sleep(2000);
 driver.findElement(By.xpath(objectrepo.getProperty("UploadSuccessButton")));	

@@ -192,8 +192,15 @@ public class EmployerUtility {
 	   if(!driver.findElements(By.xpath("//button[contains(.,'Agree')]")).isEmpty()){
 			  
  	driver.findElement(By.xpath(objectrepo.getProperty("AgreeButton"))).click();
+	 Thread.sleep(4000);
+	 log.info("Agree Button for T & C   clicked  ");
+	 
+	 
+	 driver.findElement(By.xpath(objectrepo.getProperty("ProvacyPolicyText")));
+
+	 driver.findElement(By.xpath(objectrepo.getProperty("AgreeButton"))).click();
 	 Thread.sleep(2000);
-	 log.info("Agree Button for T & C clicked  ");
+	 log.info("Agree Button for  Privacy Policy  clicked  ");
  
 			}else{
 				 log.info("T & C already selected , Move to homepage "); 

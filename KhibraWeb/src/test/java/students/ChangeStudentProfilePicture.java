@@ -97,6 +97,8 @@ public class ChangeStudentProfilePicture extends LoginUtility{
 	public void testChangeStudentProfilePicture() throws Exception {
 	 
 		  try{
+			   
+			  Thread.sleep(2000);
 			  String filePath = System.getProperty("user.dir");
 		 	  FileInputStream fis = new FileInputStream(filePath+"/config/Testdata.xlsx");
 	   
@@ -130,7 +132,7 @@ Thread.sleep(2000);
 driver.findElement(By.xpath(objectrepo.getProperty("DoneButton"))).click();	 
 log.info("DONE BUTTON CLICKED ");
  
-driver.findElement(By.xpath(objectrepo.getProperty("SaveButton"))).click();	
+driver.findElement(By.xpath(objectrepo.getProperty("SavesButton"))).click();	
 log.info("Save BUTTON CLICKED ");
 Thread.sleep(2000);
 driver.findElement(By.xpath(objectrepo.getProperty("UploadSuccessButton")));	
