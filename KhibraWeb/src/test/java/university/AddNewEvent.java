@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -171,7 +173,7 @@ driver.findElement(By.xpath(objectrepo.getProperty("InviteEmployersTextbox")));
 
 driver.findElement(By.xpath(objectrepo.getProperty("EventMessage")));
 
-driver.findElement(By.xpath(objectrepo.getProperty("EventAttachment")));
+//driver.findElement(By.xpath(objectrepo.getProperty("EventAttachment")));
 log.info("All Event Fields Validated");
 
 
@@ -211,7 +213,7 @@ driver.findElement(By.xpath(objectrepo.getProperty("TwoEmployerSelected")));
 driver.findElement(By.xpath(objectrepo.getProperty("EventMessage"))).sendKeys(Message);
 
  
-driver.findElement(By.xpath(objectrepo.getProperty("EventAttachment"))).sendKeys(System.getProperty("user.dir")+Attach);
+// driver.findElement(By.xpath(objectrepo.getProperty("EventAttachment"))).sendKeys(System.getProperty("user.dir")+Attach);
 log.info("All Event Fields Entered");
 
 Thread.sleep(2000);
@@ -235,7 +237,7 @@ log.info("Event Was Created Succesfully ");
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
+							  AssertJUnit.fail(e.getMessage());
 							  
 						}
 				  

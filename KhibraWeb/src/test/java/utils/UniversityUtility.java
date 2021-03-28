@@ -188,7 +188,7 @@ public class UniversityUtility {
 	    log.info("Username , Password Entered and Sign In Button Clicked  ");
 	   Thread.sleep(2000);
 	
-	   
+	   /*
 	   if(!driver.findElements(By.xpath("//button[contains(.,'Agree')]")).isEmpty()){
 			  
  	driver.findElement(By.xpath(objectrepo.getProperty("AgreeButton"))).click();
@@ -199,7 +199,7 @@ public class UniversityUtility {
 				 log.info("T & C already selected , Move to homepage "); 
 				 
 			}
-	   
+	   */
 	   Thread.sleep(2000);
 		  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown")));
 		    log.info("University Login Successful");

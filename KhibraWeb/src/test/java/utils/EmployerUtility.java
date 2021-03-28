@@ -188,6 +188,7 @@ public class EmployerUtility {
 	    log.info("Username , Password Entered and Sign In Button Clicked  ");
 	   Thread.sleep(2000);
 	
+	   /*
 	   
 	   if(!driver.findElements(By.xpath("//button[contains(.,'Agree')]")).isEmpty()){
 			  
@@ -209,7 +210,7 @@ public class EmployerUtility {
 	   
 	   Thread.sleep(2000);
 	   
-	   
+	 */
 	   
 
 	   

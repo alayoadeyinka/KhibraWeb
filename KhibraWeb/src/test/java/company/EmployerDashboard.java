@@ -1,6 +1,8 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -104,6 +106,9 @@ public class EmployerDashboard extends EmployerUtility{
    driver.findElement(By.xpath(objectrepo.getProperty("EmpDashboardMenu"))).click();	 
 		  log.info("Emp Dashboard Menu  Clicked");
 		  Thread.sleep(2000);
+		   driver.findElement(By.xpath(objectrepo.getProperty("DashboardHeader")));	 
+
+		   log.info("Emp Dashboard Menu  Opened");
 		  
 			    log.info("End TEST-------------------------- EmployerDashboard------------------------");     
 	    
@@ -114,7 +119,7 @@ public class EmployerDashboard extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());
+				  AssertJUnit.fail(e.getMessage());
 				  
 			}
 	  

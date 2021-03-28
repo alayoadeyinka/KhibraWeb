@@ -1,6 +1,8 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -110,13 +112,16 @@ public class EmpShortlistPosition extends EmployerUtility{
 				  String Name  = cell1.getStringCellValue();
 				  
 				 
-				  
+				  driver.findElement(By.xpath(objectrepo.getProperty("EmpMenuDropdown"))).click();	 
+			  	  log.info("Dropdown  Clicked");
+			  	  Thread.sleep(2000);
+			  	  
+			  	driver.findElement(By.xpath(objectrepo.getProperty("TalentDropdownMenu"))).click();	 
+			  	  log.info("Talent Menu  Clicked");
+			  	  Thread.sleep(2000);
 	      
 		  	  
-			  driver.findElement(By.xpath(objectrepo.getProperty("EmpTalentMenu"))).click();	 
-		  	  log.info("Talent Menu  Clicked");
-		  	  Thread.sleep(2000);
-		  	  
+			
 			  driver.findElement(By.xpath(objectrepo.getProperty("ByNameRadio"))).click();	 
 			  log.info("By Name Radio Clicked");
 		  	  Thread.sleep(2000);
@@ -151,7 +156,7 @@ public class EmpShortlistPosition extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());
+				  AssertJUnit.fail(e.getMessage());
 				  
 			}
 	  

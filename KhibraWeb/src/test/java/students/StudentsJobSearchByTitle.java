@@ -1,6 +1,8 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -132,7 +134,7 @@ log.info("Job Search by Title Was successful ");
    
 	  catch (Exception e) {
 		  log.info("END=FAILED");
-		  Assert.fail(e.getMessage());	  
+		  AssertJUnit.fail(e.getMessage());	  
 	}
 
   }

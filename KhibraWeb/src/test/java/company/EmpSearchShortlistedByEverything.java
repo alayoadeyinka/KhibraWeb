@@ -1,6 +1,8 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -109,7 +111,14 @@ public class EmpSearchShortlistedByEverything extends EmployerUtility{
 				  Cell cell1 = gpa.getCell(1);
 				  String GPA  = cell1.getStringCellValue();
 				  
-			 
+				  driver.findElement(By.xpath(objectrepo.getProperty("EmpMenuDropdown"))).click();	 
+			  	  log.info("Dropdown  Clicked");
+			  	  Thread.sleep(2000);
+			  	  
+			  	driver.findElement(By.xpath(objectrepo.getProperty("TalentDropdownMenu"))).click();	 
+			  	  log.info("Talent Menu  Clicked");
+			  	  Thread.sleep(2000);
+			  	  
 			  driver.findElement(By.xpath(objectrepo.getProperty("EmpShortlistedTab"))).click();	 
 		  	  log.info("Shortlsited Tab  Clicked");
 		  	  Thread.sleep(2000);
@@ -142,7 +151,7 @@ public class EmpSearchShortlistedByEverything extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());
+				  AssertJUnit.fail(e.getMessage());
 				  
 			}
 	  

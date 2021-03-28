@@ -1,6 +1,8 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -110,9 +112,7 @@ log.info("Change Avatar Icon Clicked");
 			  Thread.sleep(2000);
 			  log.info("Terms and Service Link Clicked");
 			  driver.findElement(By.xpath(objectrepo.getProperty("TermsandConditionsHeader")));
-			  driver.findElement(By.xpath(objectrepo.getProperty("TermsIntroduction")));
-			  driver.findElement(By.xpath(objectrepo.getProperty("TermsContract")));
-			  driver.findElement(By.xpath(objectrepo.getProperty("TermsMembers")));
+			   
 			  log.info("Terms and Conditions Sections Validated (Introduction, Contract, Members");
 			  
 			  
@@ -125,7 +125,7 @@ log.info("END=PASSED");
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 
 		  }

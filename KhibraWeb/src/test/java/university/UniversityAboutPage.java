@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -104,10 +106,17 @@ public class UniversityAboutPage extends UniversityUtility{
 			  driver.findElement(By.xpath(objectrepo.getProperty("AboutMenu"))).click();	 
 			  log.info("About Menu Selected");
 			
-			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeMessage")));
-			  driver.findElement(By.xpath(objectrepo.getProperty("VersionNumber")));
-			  driver.findElement(By.xpath(objectrepo.getProperty("Copyright")));
-			  log.info("Version Number and Welcome Message displayed");
+			  driver.findElement(By.xpath(objectrepo.getProperty("VersionSection")));
+				 
+			  driver.findElement(By.xpath(objectrepo.getProperty("InformationCenterText")));
+			 
+			  driver.findElement(By.xpath(objectrepo.getProperty("WelcomeTab"))).click();
+		 
+			  driver.findElement(By.xpath(objectrepo.getProperty("ReleaseNoteTab"))).click();
+		 
+			  driver.findElement(By.xpath(objectrepo.getProperty("ComingSoonTab"))).click();
+
+			  log.info("Version Number Release Notes, Welcome and Coming Soon Tabs Validated");
 			    log.info("End TEST-------------------------- UniversityAboutPage------------------------");     
 	    
 			    log.info("END=PASSED");
@@ -116,7 +125,7 @@ public class UniversityAboutPage extends UniversityUtility{
 	   
 		  catch (Exception e) {
 			  log.info("END=FAILED");
-			  Assert.fail(e.getMessage());	  
+			  AssertJUnit.fail(e.getMessage());	  
 		}
   
 	  }

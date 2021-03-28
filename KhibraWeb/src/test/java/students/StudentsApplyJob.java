@@ -1,6 +1,8 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -109,7 +111,7 @@ public class StudentsApplyJob extends LoginUtility{
 		  
 			  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 			  log.info("Menu Dropdown Clicked");
-			  driver.findElement(By.xpath(objectrepo.getProperty("JobsMenu"))).click();	 
+			  driver.findElement(By.xpath(objectrepo.getProperty("JobsMenus"))).click();	 
 			  log.info("Jobs Menu Selected");
 			  Thread.sleep(2000);
 			  driver.findElement(By.xpath(objectrepo.getProperty("JobsHeader")));	 
@@ -125,15 +127,28 @@ driver.findElement(By.xpath(objectrepo.getProperty("ApplyJobButton"))).click();
 Thread.sleep(2000);
 log.info("Apply to Job Button Clicked");
 
+
+driver.findElement(By.xpath(objectrepo.getProperty("NoButton"))).click();	 
+Thread.sleep(2000);
+log.info("No Button Clicked");
+
+driver.findElement(By.xpath(objectrepo.getProperty("ApplyJobButton"))).click();	 
+Thread.sleep(2000);
+log.info("Apply to Job Button Clicked Again ");
+
+driver.findElement(By.xpath(objectrepo.getProperty("YesButton"))).click();	 
+Thread.sleep(2000);
+log.info("Yes Button Clicked");
+
+
+
 driver.findElement(By.xpath(objectrepo.getProperty("JobAppliedSuccessMessage")));	 
 
 driver.findElement(By.xpath(objectrepo.getProperty("ViewApplicationLink")));	 
 
 driver.findElement(By.xpath(objectrepo.getProperty("JustNowText")));	 
 
-driver.findElement(By.xpath(objectrepo.getProperty("JobPendingReviewText")));	 
-
-driver.findElement(By.xpath(objectrepo.getProperty("AppliedDate")));	 
+ 
    
 log.info("Job Applied Successfully and all status changed");
 
@@ -147,7 +162,7 @@ log.info("Job Applied Successfully and all status changed");
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 	  
 		  }

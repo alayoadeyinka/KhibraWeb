@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="students.SearchEvent">
+      <class name="university.UniversiyProfilePAge">
         <methods>
+          <include name="testUniversiyProfilePAge"/>
           <include name="screenShot"/>
-          <include name="testStudentSearchEvent"/>
           <include name="setUp1"/>
         </methods>
-      </class> <!-- students.SearchEvent -->
+      </class> <!-- university.UniversiyProfilePAge -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,8 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -109,7 +111,7 @@ public class StudentViewJobApplicationDetails extends LoginUtility{
 			  
 			  driver.findElement(By.xpath(objectrepo.getProperty("JobAvailabilityText")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("JobDurationText")));	 
-			  driver.findElement(By.xpath(objectrepo.getProperty("JobAppliedText")));	 
+			//  driver.findElement(By.xpath(objectrepo.getProperty("JobAppliedText")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("SubmittedCVText")));	 
 			  driver.findElement(By.xpath(objectrepo.getProperty("ViewCVLink")));	 
  			  driver.findElement(By.xpath(objectrepo.getProperty("JobAddress")));	 
@@ -132,7 +134,7 @@ log.info("END=PASSED");
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 
 		  }

@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -115,7 +117,7 @@ public class UniversityStudentsMenuDropdown extends UniversityUtility{
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 	  
 		  }

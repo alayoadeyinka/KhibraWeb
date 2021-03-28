@@ -1,6 +1,8 @@
  package students;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -108,7 +110,7 @@ public class StudentsApplyJobNoCV extends NoCVLoginUtility{
 		  
 				  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown"))).click();	 
 				  log.info("Menu Dropdown Clicked");
-				  driver.findElement(By.xpath(objectrepo.getProperty("JobsMenu"))).click();	 
+				  driver.findElement(By.xpath(objectrepo.getProperty("JobsMenus"))).click();	 
 				  log.info("Jobs Menu Selected");
 				  Thread.sleep(2000);
 				  driver.findElement(By.xpath(objectrepo.getProperty("JobsHeader")));	 
@@ -133,7 +135,7 @@ log.info("Apply Button not available and Create CV before applying link displaye
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 	  
 		  }

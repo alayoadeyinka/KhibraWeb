@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -98,15 +100,14 @@ public class UniversiyProfilePAge extends UniversityUtility{
 		  try {
 		   
 	  Thread.sleep(2000);
-	   driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown")));	 
-	   log.info("Menu Dropdown Available");
+	 //  driver.findElement(By.xpath(objectrepo.getProperty("MenuDropdown")));	 
+	//   log.info("Menu Dropdown Available");
 	   driver.findElement(By.xpath(objectrepo.getProperty("UniProfileMenu"))).click();	 
 	   log.info("UniProfileMenu Button Clicked ");
 	    Thread.sleep(2000);  
 		   driver.findElement(By.xpath(objectrepo.getProperty("UniversityLogo")));	 
 
 		   driver.findElement(By.xpath(objectrepo.getProperty("UniversityName")));	 
-
 		   driver.findElement(By.xpath(objectrepo.getProperty("AboutUni")));	 
 
 		   
@@ -127,7 +128,7 @@ public class UniversiyProfilePAge extends UniversityUtility{
 		   
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());	  
+				  AssertJUnit.fail(e.getMessage());	  
 			}
 	  
 		  }

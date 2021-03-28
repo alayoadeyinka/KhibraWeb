@@ -1,6 +1,8 @@
  package UserAccess;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -168,7 +170,7 @@ public class InvalidLogin extends utility{
 		  
 		  catch (Exception e) {
 			  log.info("END=FAILED");
-			  Assert.fail(e.getMessage());
+			  AssertJUnit.fail(e.getMessage());
 			  
 		}
   

@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -143,7 +145,7 @@ if(!driver.findElements(By.xpath("//div[@class='emptyEventsCard']")).isEmpty()){
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
+							  AssertJUnit.fail(e.getMessage());
 							  
 						}
 				  

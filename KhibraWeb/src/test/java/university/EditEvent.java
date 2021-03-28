@@ -1,6 +1,8 @@
  package university;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -80,14 +82,14 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  
-public class EditEvent extends EmployerUtility{
+public class EditEvent extends UniversityUtility{
 	 
 		
 	@BeforeMethod
     public void setUp1() throws Exception {
 	  log.info("START=EditEvent--------------------------------------------------------------");
 
-	  EmployerUtilityclass();
+	  UniversityUtilityclass();
     
     	
     		
@@ -164,7 +166,7 @@ log.info("Event Was updated Succesfully ");
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
+							  AssertJUnit.fail(e.getMessage());
 							  
 						}
 				  

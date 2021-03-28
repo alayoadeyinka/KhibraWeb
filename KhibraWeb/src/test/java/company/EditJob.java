@@ -1,6 +1,8 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -151,7 +153,7 @@ public class EditJob extends EmployerUtility{
   
 		  catch (Exception e) {
 			  log.info("END=FAILED");
-			  Assert.fail(e.getMessage());
+			  AssertJUnit.fail(e.getMessage());
 			  
 		}
   

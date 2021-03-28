@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -157,7 +160,7 @@ Thread.sleep(2000);
 	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
 
 	
-	AssertJUnit.fail("Search Event was available for University and should be removed"); 	 
+	Assert.fail("Search Event was available for University and should be removed"); 	 
 
 		 
 		  
@@ -179,7 +182,7 @@ Thread.sleep(2000);
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
+							  AssertJUnit.fail(e.getMessage());
 							  
 						}
 				  

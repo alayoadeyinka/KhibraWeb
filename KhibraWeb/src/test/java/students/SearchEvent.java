@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -151,7 +154,7 @@ driver.findElement(By.xpath(objectrepo.getProperty("EventsHubMenuDropdown"))).cl
 Thread.sleep(2000);
 
 	
-if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmpty()){
+if(driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmpty()){
 		  
 	 TakesScreenshot screenshot=(TakesScreenshot)driver;
 	  // Call method to capture screenshot
@@ -161,7 +164,7 @@ if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmp
 	   FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+new SimpleDateFormat("yyyyMMddhhmm").format(new Date())+".jpg"));
 
 	
-	AssertJUnit.fail("Search Events was available for University and should be removed"); 	 
+	Assert.fail("Search Events was available for Students and should be removed"); 	 
 
 		 
 		  
@@ -182,7 +185,7 @@ if(!driver.findElements(By.xpath("//input[@placeholder='Search events']")).isEmp
 				  
 						  catch (Exception e) {
 							  log.info("END=FAILED");
-							  Assert.fail(e.getMessage());
+							  AssertJUnit.fail(e.getMessage());
 							  
 						}
 				  

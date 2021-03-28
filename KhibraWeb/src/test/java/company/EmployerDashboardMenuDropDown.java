@@ -1,6 +1,8 @@
  package company;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
@@ -106,7 +108,9 @@ public class EmployerDashboardMenuDropDown extends EmployerUtility{
 		  	  log.info("Emp Dashboard Dropdown  Clicked");
 		  	  Thread.sleep(2000);
 		  	
-		  	  
+		  	driver.findElement(By.xpath(objectrepo.getProperty("DashboardHeader")));	 
+
+			   log.info("Emp Dashboard Menu  Opened");
 			  
 		  	 
 			  
@@ -120,7 +124,7 @@ public class EmployerDashboardMenuDropDown extends EmployerUtility{
 	  
 			  catch (Exception e) {
 				  log.info("END=FAILED");
-				  Assert.fail(e.getMessage());
+				  AssertJUnit.fail(e.getMessage());
 				  
 			}
 	  
