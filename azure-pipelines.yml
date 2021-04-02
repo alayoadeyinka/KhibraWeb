@@ -10,6 +10,13 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- task: CopyFiles@2
+  displayName: Copy Files
+  inputs:
+    SourceFolder: $(system.defaultworkingdirectory)/target/azure-functions/
+    Contents: '**'
+    TargetFolder: $(build.artifactstagingdirectory)   
+
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
@@ -19,4 +26,4 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    goals: 'package''
