@@ -181,10 +181,9 @@
         
         
         
-        <!-- <suiteXmlFiles>
-        <suiteXmlFile>${testngFile}</suiteXmlFile>
-        
-        </suiteXmlFiles> -->
+    <suiteXmlFiles>
+        <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+        </suiteXmlFiles> 
         
             
         <source>1.6</source>
